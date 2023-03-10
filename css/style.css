@@ -46,6 +46,8 @@ body {
 
 .main {
   background-image: url("../img/homepage_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-content {
@@ -85,3 +87,49 @@ body {
   font-size: 18px;
   line-height: 22px;
 }
+
+.plan {
+    padding: 170px 0 ;
+}
+
+.articles {
+    display: flex;
+    column-gap: 45px;
+}
+
+.article {
+    display: inline-block;
+    text-align: center;
+
+    padding: 30px 0;
+    border: 3px solid #4D5053;
+}
+
+.article-title {
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    line-height: 33px;
+    color: #292F36;
+
+    margin-bottom: 20px;
+}
+
+.article-text {
+    color: #4D5053;
+    font-size: 22px;
+    line-height: 33px;
+
+    margin-bottom: 52px;
+}
+
+.article-link-item {
+    display: inline-flex;
+    column-gap: 12px;
+    align-items: center;
+
+    color: #4D5053;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+
