@@ -5,3 +5,83 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
 
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  padding: 45px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+
+  font-family: "DM Serif Display", sans-serif;
+  color: #292f36;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+}
+
+.nav-link {
+  color: #292f36;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.main {
+  background-image: url("../img/homepage_bg.png");
+}
+
+.main-content {
+  padding: 330px 0;
+  max-width: 567px;
+}
+
+.main h1 {
+  font-family: "DM Serif Display";
+  color: #292f36;
+  font-size: 85px;
+  line-height: 106px;
+}
+
+.main h2 {
+  color: #4d5053;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.main-btn {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.main-btn-link {
+  background-color: #292f36;
+  padding: 26px 48px;
+  border-radius: 18px;
+
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
