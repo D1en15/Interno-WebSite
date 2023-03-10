@@ -90,6 +90,8 @@ body {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+
+  box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
 }
 
 /* -----------plan----------- */
@@ -203,6 +205,8 @@ body {
   padding: 26px 31px;
   background-color: #292f36;
   border-radius: 18px;
+
+  box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
 }
 
 /* --------reviews---------- */
@@ -442,4 +446,61 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* ---------contact-------- */
+
+.contact {
+  margin-bottom: 135px;
+}
+
+.contact-block {
+  width: 100%;
+  height: 374px;
+
+  padding: 80px 315px;
+
+  background: #292f36;
+  border-radius: 70px;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.contact-text h1 {
+  font-family: "DM Serif Display", sans-serif;
+  color: #fff;
+  font-size: 50px;
+  line-height: 63px;
+
+  margin-bottom: 11px;
+}
+
+.contact-text h2 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 33px;
+}
+.contact-btn {
+  margin-top: 40px;
+
+  text-align: center;
+}
+
+.contact-btn-link {
+  padding: 26px 32px;
+  background-color: #cda274;
+  border-radius: 18px;
+
+  display: inline-flex;
+  column-gap: 11px;
+  align-items: center;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+
+  box-shadow: 0px 10px 20px #1f2022;
 }
