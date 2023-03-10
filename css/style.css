@@ -283,3 +283,14 @@ body {
   line-height: 33px;
 }
 
+/* ---------client-logos--------- */
+
+.client-logos{
+  margin-bottom: 150px;
+}
+
+.logos-list {
+  display: flex;
+  justify-content: space-around;
+}
+
