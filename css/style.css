@@ -15,6 +15,8 @@ body {
   margin: 0 auto;
 }
 
+/* --------header--------- */
+
 .header-nav {
   padding: 45px 0;
   display: flex;
@@ -43,6 +45,8 @@ body {
   font-size: 20px;
   line-height: 25px;
 }
+
+/* -------------main------------- */
 
 .main {
   background-image: url("../img/homepage_bg.png");
@@ -87,6 +91,8 @@ body {
   font-size: 18px;
   line-height: 22px;
 }
+
+/* -----------plan----------- */
 
 .plan {
   padding: 120px 0;
@@ -133,6 +139,8 @@ body {
   font-size: 18px;
   line-height: 23px;
 }
+
+/* ----------about-us-------------- */
 
 .about-us {
   margin-bottom: 120px;
@@ -196,3 +204,82 @@ body {
   background-color: #292f36;
   border-radius: 18px;
 }
+
+
+/* --------reviews---------- */
+
+
+.reviews {
+  margin-bottom: 150px;
+}
+
+.reviews-block {
+  width: 100%;
+  height: 680px;
+
+  background: #F4F0EC;
+  border-radius: 70px;
+}
+
+.reviews-content {
+  padding: 88px 25px;
+}
+
+.reviews-title {
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 50px;
+  line-height: 63px;
+  color: #292F36;
+
+  text-align: center;
+  margin-bottom: 38px;
+
+}
+
+.review-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.review-card {
+  height: 339px;
+
+  padding: 0 37px;
+  padding-top: 60px;
+  vertical-align: middle;
+
+  border-radius: 15px;
+  background: #FFFFFF;
+
+}
+.card-content {
+  display: inline-block;
+  max-width: 296px;
+}
+
+.card-top {
+  display: flex;
+  column-gap: 23px;
+
+  margin-bottom: 33px;
+}
+
+.card-top-info {
+  color: #4D5053;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.card-info-name {
+  font-family: 'DM Serif Display', sans-serif;
+  color: #292F36;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.card-text {
+  color: #4D5053;
+  font-size: 22px;
+  line-height: 33px;
+}
+
