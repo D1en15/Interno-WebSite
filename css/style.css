@@ -341,3 +341,45 @@ body {
   color: #4d5053;
   line-height: 33px;
 }
+
+/* ----------counter---------- */
+
+.counter {
+  margin-bottom: 200px;
+}
+
+.counter-block {
+  width: 100%;
+  height: 457px;
+
+  background: #F4F0EC;
+}
+.counter-content {
+  display: flex;
+  padding-top: 151px;
+}
+
+.block {
+  height: 155px;
+  
+  display: flex;
+  margin: auto;
+  column-gap: 76px;
+}
+
+.block-text {
+  text-align: center;
+}
+
+.block-num {
+  font-family: 'DM Serif Display', sans-serif;
+  color: #CDA274;
+  font-size: 85px;
+  line-height: 106px;
+}
+
+.block-title {
+  color: #4D5053;
+  font-size: 22px;
+  line-height: 33px;
+}
