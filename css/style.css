@@ -352,7 +352,7 @@ body {
   width: 100%;
   height: 457px;
 
-  background: #F4F0EC;
+  background: #f4f0ec;
 }
 .counter-content {
   display: flex;
@@ -361,7 +361,7 @@ body {
 
 .block {
   height: 155px;
-  
+
   display: flex;
   margin: auto;
   column-gap: 76px;
@@ -372,14 +372,74 @@ body {
 }
 
 .block-num {
-  font-family: 'DM Serif Display', sans-serif;
-  color: #CDA274;
+  font-family: "DM Serif Display", sans-serif;
+  color: #cda274;
   font-size: 85px;
   line-height: 106px;
 }
 
 .block-title {
-  color: #4D5053;
+  color: #4d5053;
   font-size: 22px;
   line-height: 33px;
+}
+
+/* --------news---------- */
+
+.news {
+  margin-bottom: 202px;
+}
+
+.news-title {
+  text-align: center;
+  max-width: 811px;
+  margin: 0 auto;
+  margin-bottom: 52px;
+}
+
+.news-title h1 {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.news-title h2 {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.news-articles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.news-article {
+  width: 382px;
+  height: 521px;
+  padding: 21px;
+
+  border: 1px solid #e7e7e7;
+  border-radius: 62px;
+}
+
+.news-article.active {
+  background: #f4f0ec;
+}
+
+.news-article-img {
+  margin-bottom: 21px;
+}
+
+.news-article-title {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 25px;
+  line-height: 31px;
+
+  margin-bottom: 30px;
+}
+
+.news-article-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
